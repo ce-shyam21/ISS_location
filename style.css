@@ -1,0 +1,107 @@
+/* Reset some basic elements */
+body,
+html,
+div,
+p,
+h1,
+span {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Style for the marquee */
+marquee {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    color: #61dafb;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Shadow effect */
+    background-color: #282c34; /* Background color */
+    padding: 10px; /* Add padding for better readability */
+}
+
+/* Additional hover effect */
+marquee:hover {
+    text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8); /* Increase shadow on hover */
+    transition: text-shadow 0.3s ease; /* Smooth transition */
+}
+
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #282c34;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Title styling */
+h1 {
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #61dafb;
+    text-shadow: 2px 2px #000;
+}
+
+/* Map container styling */
+#map {
+    height: 500px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+#map:hover {
+    transform: scale(1.05);
+    border: 2px solid #61dafb;
+    /* Border color on hover */
+}
+
+/* Info section styling */
+#info {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Info paragraph styling */
+#info p {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #61dafb;
+}
+
+/* Info span styling */
+#info span {
+    color: #f0db4f;
+    font-weight: bold;
+}
+
+/* Hover effect for details section */
+#info:hover {
+    border: 2px solid #61dafb;
+    /* Border color on hover */
+}
+
+/* Hover effect for information box */
+#info:hover {
+    box-shadow: 0 0 15px rgba(97, 218, 251, 0.5);
+    /* Box shadow on hover */
+}
+
+/* Additional styling for smaller screens */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    #info p {
+        font-size: 1.2em;
+    }
+}
